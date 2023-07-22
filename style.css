@@ -2,8 +2,7 @@ body{
 
     display: flex;
     flex-direction: column;
-    padding: 25px;
-
+    background-color: #243140;
 }
 
 .header{
@@ -49,6 +48,46 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: goldenrod;
+}
+
+.qoute{
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #e5e7eb;
+   
+}
+
+blockquote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.qoute-author{
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.card{
+
+    background-color: #3882f6;
+    display: flex;
+    align-items: flex-start;
+    padding: 30px;
+    justify-content: center;
+    color: #00ffff;
+    
+
 }
 
 .text{
@@ -63,6 +102,12 @@ ul{
     justify-content: space-around;
     gap: 10px;
 
+}
+
+button{
+    background-color: #3882f6;
+    color: #00ffff;
+    border-color: #00ffff;
 }
 
 a{
