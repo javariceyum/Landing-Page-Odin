@@ -75,6 +75,7 @@ blockquote{
 .signup{
     display: flex;
     justify-content: center;
+  
 
    
 }
@@ -87,8 +88,18 @@ blockquote{
     padding: 30px;
     justify-content: center;
     color: #00ffff;
+    border-radius: 10px;
     
 
+}
+
+.footer{
+
+    background-color: #1f2937;
+    color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text{
