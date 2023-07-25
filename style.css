@@ -3,6 +3,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #243140;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 
 .header{
@@ -15,12 +17,15 @@ body{
     background-color: #1f2937;
     align-items: center;
     gap: 25px;
-    
+}
+
+.right-links{
+    flex-basis: 500px;
 
 }
 
 .hero{
-
+    
     display: flex;
     background-color: #121212;
     color: #00ffff;
@@ -108,7 +113,7 @@ blockquote{
 
 .text{
 
-    font-size: 42px;
+    font-size: 48px;
     font-weight: bolder;
 }
 
@@ -129,6 +134,7 @@ button{
 a{
 
     text-decoration: none;
+    color: #f9faf8;
 }
 
 ul{
@@ -145,4 +151,9 @@ figcaption{
 
     max-width: 250px;
     text-align: left;
+}
+
+.attribute{
+    display: flex;
+    justify-content: flex-end;
 }
