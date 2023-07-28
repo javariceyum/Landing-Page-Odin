@@ -3,6 +3,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #243140;
+    margin: 0;
+  
 }
 
 .header{
@@ -51,6 +53,7 @@ body{
     font-size: 40px;
     font-weight: bolder;
     color: #c0c0c0;
+    background-color: #696356;
 }
 
 .pics{
@@ -71,7 +74,7 @@ body{
     flex-direction: column;
     background-color: #e5e7eb;
     justify-content: center;
-   
+    margin: 0;
 }
 
 blockquote{
@@ -88,6 +91,7 @@ blockquote{
 .signup{
     display: flex;
     justify-content: center;
+    padding: 50px;
   
 
    
@@ -113,7 +117,7 @@ blockquote{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
+    padding: 50px;
 }
 
 .text{
