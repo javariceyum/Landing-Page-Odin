@@ -3,14 +3,12 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #243140;
-    flex-wrap: wrap;
-    flex-grow: 1;
 }
 
 .header{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 24px;
     font-weight:bolder;
     color: #f9faf8;
@@ -29,10 +27,14 @@ body{
     display: flex;
     background-color: #121212;
     color: #00ffff;
-    padding: 20px; 
-    justify-content: space-around;
-    gap: 25px;
+    padding: 30px; 
+    justify-content: center;
+   
+}
 
+.hero-left{
+
+    margin-right: 60px;
 }
 
 .middle{
@@ -55,8 +57,10 @@ body{
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #696356;
+    flex-wrap: wrap;
+   
     
 }
 
@@ -109,6 +113,7 @@ blockquote{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .text{
@@ -149,7 +154,7 @@ figcaption{
 
 .definitions{
 
-    max-width: 250px;
+    width: 250px;
     text-align: left;
 }
 
